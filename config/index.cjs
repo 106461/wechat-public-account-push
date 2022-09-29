@@ -175,7 +175,7 @@ const USER_CONFIG = {
       id: 'otwj56anJHrvXFnjT3-8bI6-OY7Y',
       useTemplateId: 'e900DgSFEh_GZXKyLU-qCrQEjTI6sZJo_1pGR2av2A4',
       province: '山西',
-      city: '运城',
+      city: '河津',
       horoscopeDate: '12-27',
       horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
