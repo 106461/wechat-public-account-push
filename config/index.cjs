@@ -180,21 +180,17 @@ const USER_CONFIG = {
       horoscopeDateType: '今日',
       openUrl: 'https://www.disney.cn/',
       festivals: [{
-          type: '*生日', name: '红', year: '2003', date: '10-12',
+          type: '*生日', name: '宁', year: '2003', date: '10-21',
         },
-        {
-          type: '节日', name: '给我钱的日子', year: '2020', date: '09-30',
-        },
+    
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+    
         {
-          type: '生日', name: '你的好兄弟也就是我的生日', year: '2002', date: '08-13',
-        },
-        {
-          type: '节日', name: '说要给我补生日的日子', year: '2023', date: '01-01',
+          type: '节日', name: '毕业时间', year: '2025', date: '06-01',
         }],
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-05-05' },
         // 结婚纪念日
         { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
