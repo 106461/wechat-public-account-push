@@ -195,33 +195,36 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2022-09-09' },
         // 退伍日
         { keyword: 'ex_day', date: '2022-09-10' }
+        
       ],
       courseSchedule: null
     },
     {
       name: '老板2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+      id: 'otwj56anJHrvXFnjT3-8bI6-OY7Y',
+       useTemplateId: '8Jr1b1pJefpOKu54Kociw6l1776lNt-Z3ELxgoN2C3c',
+      province: '山西',
+      city: '运城',
+      horoscopeDate: '12-27',
+      horoscopeDateType: '今日',
+      openUrl: 'https://www.disney.cn/',
+      festivals: [{
+          type: '*生日', name: '鹿鹿', year: '2003', date: '11-21',
+        },
+    
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+    
+        {
+          type: '节日', name: '毕业时间', year: '2025', date: '06-01',
+        }],
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-05-05' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },
+        // 退伍日
+        { keyword: 'ex_day', date: '2022-09-10' }
+      ],
       courseSchedule: null
     }
     // 你可以不断按格式往下增加
