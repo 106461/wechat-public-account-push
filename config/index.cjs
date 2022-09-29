@@ -65,7 +65,7 @@ const USER_CONFIG = {
       // 想要发送的人的名字
       name: '兄弟',
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'otwj56Z0sBxCs7GCnUvQyZduYVVM',
+      id: '',
       // 你想对他发送的模板消息的模板ID
       useTemplateId: 'I4bFas8wDdfXqn_gYhGvmaZUZI5jSL2ufO3BEC05fEY',
       // 所在省份
@@ -171,20 +171,39 @@ const USER_CONFIG = {
       },
     },
     {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
+      name: '老板1',
+      id: 'otwj56anJHrvXFnjT3-8bI6-OY7Y',
+      useTemplateId: 'e900DgSFEh_GZXKyLU-qCrQEjTI6sZJo_1pGR2av2A4',
+      province: '山西',
+      city: '运城',
+      horoscopeDate: '12-27',
+      horoscopeDateType: '今日',
       openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
+      festivals: [{
+          type: '*生日', name: '红', year: '2003', date: '10-12',
+        },
+        {
+          type: '节日', name: '给我钱的日子', year: '2020', date: '09-30',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '你的好兄弟也就是我的生日', year: '2002', date: '08-13',
+        },
+        {
+          type: '节日', name: '说要给我补生日的日子', year: '2023', date: '01-01',
+        }],
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-09-08' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-09-09' },
+        // 退伍日
+        { keyword: 'ex_day', date: '2022-09-10' }
+      ],
       courseSchedule: null
     },
     {
-      name: '老婆2',
+      name: '老板2',
       id: '',
       useTemplateId: '',
       province: '',
