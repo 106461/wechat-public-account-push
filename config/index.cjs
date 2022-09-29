@@ -172,7 +172,7 @@ const USER_CONFIG = {
     },
     {
       name: '老板1',
-      id: 'otwj56anJHrvXFnjT3-8bI6-OY7Y',
+      id: '',
       useTemplateId: '8Jr1b1pJefpOKu54Kociw6l1776lNt-Z3ELxgoN2C3c',
       province: '山西',
       city: '运城',
